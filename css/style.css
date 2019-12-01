@@ -14,3 +14,29 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
 }
+
+/* Header */
+.header {
+  height: 100px;
+}
+.header-main {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  color: var(--primary-color);
+  font-size: 28px;
+  font-weight: 700;
+}
+.header-logo:hover {
+  text-decoration: none;
+}
+.header-link {
+  font-size: 17px;
+  color: var(--text-color);
+}
+.header-link:not(:last-child) {
+  margin-right: 35px;
+}
