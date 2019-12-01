@@ -52,3 +52,9 @@ body {
 .header-link:not(:last-child) {
   margin-right: 35px;
 }
+
+/* home-sec-1 */
+.phone-pencil {
+  max-height: 500px;
+  float: right;
+}
