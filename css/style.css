@@ -58,3 +58,33 @@ body {
   max-height: 500px;
   float: right;
 }
+.home-sec-1-action {
+  margin-top: 30px;
+}
+.home-sec-1-action .button:first-child {
+  margin-right: 25px;
+}
+
+/* Buttons */
+.button {
+  height: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  border: none;
+}
+.button:focus {
+  outline: none;
+}
+.big-button {
+  min-width: 200px;
+  min-height: 50px;
+}
+.primary-button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.secondary-button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
